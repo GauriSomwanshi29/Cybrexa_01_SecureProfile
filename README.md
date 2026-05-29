@@ -6,7 +6,7 @@
 
 ## 🌐 Live Website
 
-🔗 **Portfolio:** [Add Your Netlify Link Here]
+🔗 **Portfolio:** [https://gauri-somwanshi-portfolio.netlify.app/]
 
 ---
 
