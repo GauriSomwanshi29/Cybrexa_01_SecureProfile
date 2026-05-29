@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CyberNova</title>
+
+  <link rel="stylesheet" />
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+  <div id="boot-screen">
+    <div class="terminal-box">
+      <p id="boot-text"></p>
+    </div>
+  </div>
+
+  <canvas id="matrixCanvas"></canvas>
+
+  <div class="page-glow"></div>
+
+  <header class="navbar">
+    <div class="brand">CyberNova</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#dossier">Dossier</a>
+      <a href="#projects">Projects</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#certs">Certs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">SECURE IDENTITY VERIFIED</p>
+
+        <h1 class="hero-title">
+          Hello, I am <span>Gauri</span>
+        </h1>
+
+        <p class="hero-summary">
+          Motivated and detail-oriented Cyber Security student with a strong academic foundation in networking, programming, and security principles. Demonstrated hands-on experience in building security tools and detecting intrusions, showcasing real-world offensive and defensive security skills. Eager to apply technical expertise as a SOC Analyst, Ethical Hacker, or Security Analyst Intern.
+        </p>
+
+       <div class="social-row">
+
+<a href="https://github.com/gauri634-tech" target="_blank" class="social-icon">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/gauri-somwanshi-493030376/" target="_blank" class="social-icon">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+</div>
+
+        <div class="cta-row">
+          <a href="#projects" class="cyber-btn">Projects</a>
+          <a href="#contact" class="cyber-btn ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-hud reveal">
+        <div class="hud-ring"></div>
+        <div class="hud-card">
+          <span>THREAT LEVEL</span>
+          <strong>MONITORING</strong>
+          <p>Cyber Defense Profile Active</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="dossier">
+      <div class="section-head reveal">
+        <p class="eyebrow">SECURITY DOSSIER</p>
+        <h2>About, Education & Skills </h2>
+      </div>
+
+      <div class="dossier-grid">
+        <article class="glass-card reveal">
+          <h3>Education</h3>
+          <p>B.Sc Cyber Security — Indira College of Commerce & Science</p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>Programming & Scripting</h3>
+          <p>Python, C, C++, Java, HTML, CSS, SQL</p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>Security Tools</h3>
+          <p>Kali Linux, Wireshark, Nmap, Burp Suite</p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>Core Competencies</h3>
+          <p>Data Structures, Network Security Fundamentals, Cryptography, Linux CLI, OWASP Top 10 Awareness</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <p class="eyebrow">PROJECT ARCHIVES</p>
+        <h2>Cyber Security projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card tilt-card reveal">
+          <span class="project-index">01</span>
+          <h3>Network Intrusion Detection System</h3>
+          <p>Python-based IDS, packet inspection logic, real-time alerts, TCP/IP threat methodologies.</p>
+        </article>
+
+        <article class="project-card tilt-card reveal">
+          <span class="project-index">02</span>
+          <h3>Password Strength Checker with Hashing</h3>
+          <p>Python entropy evaluator, SHA-256 and bcrypt integration, NIST compliance.</p>
+        </article>
+      </div>
+    </section>
+<section class="section" id="roadmap">
+
+  <div class="section-head reveal roadmap-heading">
+    <p class="eyebrow">SKILL GROW PATH</p>
+    <h2>Upcoming Skills</h2>
+  </div>
+
+  <div class="growth-panel">
+
+    <div class="growth-step">
+      <span>01</span>
+      <h3>Cloud Security</h3>
+      <p>Secure cloud platforms and configurations</p>
+    </div>
+
+    <div class="growth-step">
+      <span>02</span>
+      <h3>Generative AI</h3>
+      <p>AI tools, prompt security and automation</p>
+    </div>
+
+    <div class="growth-step">
+      <span>03</span>
+      <h3>Bug Hunting</h3>
+      <p>Finding and reporting web vulnerabilities</p>
+    </div>
+
+    <div class="growth-step">
+      <span>04</span>
+      <h3>IBM Security</h3>
+      <p>Security monitoring and enterprise tools</p>
+    </div>
+
+    <div class="growth-step">
+      <span>05</span>
+      <h3>Digital Forensics</h3>
+      <p>Investigating incidents and evidence</p>
+    </div>
+
+  </div>
+
+</section>
+
+</div>
+
+    <section class="section" id="certs">
+      <div class="section-head reveal">
+        <p class="eyebrow">CERTIFICATIONS MATRIX</p>
+        <h2>Done Certificates</h2>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-card tilt-card reveal">
+          <h3>Complete Network Hacking Course</h3>
+          <p>Beginner to Advanced</p>
+        </article>
+
+        <article class="cert-card tilt-card reveal">
+          <h3>Certified Generative AI Transformers 2025</h3>
+          <p>AI Security & Transformer Concepts</p>
+        </article>
+
+        <article class="cert-card tilt-card reveal">
+          <h3>Computer Security by MIT</h3>
+          <p>Security Foundations</p>
+        </article>
+
+        <article class="cert-card tilt-card reveal">
+          <h3>Deloitte Cyber Job Simulation</h3>
+          <p>Professional Cybersecurity Simulation</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head reveal">
+        <p class="eyebrow">CONTACT INTERFACE</p>
+        <h2>Contact Me</h2>
+      </div>
+
+      <form class="contact-form reveal">
+        <div class="input-wrap">
+          <input type="text" required />
+          <label>Name</label>
+        </div>
+
+        <div class="input-wrap">
+          <input type="email" required />
+          <label>Email</label>
+        </div>
+
+        <div class="input-wrap">
+          <textarea rows="5" required></textarea>
+          <label>Message</label>
+        </div>
+
+        <button type="submit" id="sendBtn">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Designed by Gauri Somwanshi © 2026</p>
+    <span id="clock">00:00:00</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
